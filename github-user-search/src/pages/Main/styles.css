@@ -1,0 +1,21 @@
+.main-page {
+    margin: 40px 120px 120px 120px;
+}
+
+.main-title {
+    font-size: 48px;
+    line-height: 64px;
+    color: #062847;
+}
+
+.main-content {
+    font-size: 20px;
+    line-height: 36px;
+    color: #5A6774;
+}
+
+.main-email-address {
+    color: #1890FF;
+    cursor: pointer;
+    font-weight: normal;
+}

@@ -1,0 +1,17 @@
+.btn {
+    background-color:  #1890FF;
+}
+
+.btn:hover {
+    background-color:  #1d65a8;
+}
+
+.btn-text {
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    
+}

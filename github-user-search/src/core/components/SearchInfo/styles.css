@@ -1,0 +1,43 @@
+.user-details-card {
+    border: 1px solid #E1E1E1;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    grid-area: main;
+}
+
+.data-response {
+    margin: 10px 10px 40px 0px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    color: #737373;
+    width: 660px;
+    height: auto;
+}
+.user-info-numbers {
+    display: inline-block;
+    list-style:none; 
+    padding: 5px;
+    margin: 10px 20px 5px 0px;
+    text-transform: capitalize;
+    background-color: #F5F5F5;
+    color: #595959;
+}
+
+.user-info-numbers p {
+    margin: 5px 0px 5px 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.user-info-title {
+    color: #1890FF;
+    margin-bottom: 15px;
+}
+
+.user-info-content {
+    border: 1px solid #E1E1E1;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
