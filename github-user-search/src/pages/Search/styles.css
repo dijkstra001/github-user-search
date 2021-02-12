@@ -73,5 +73,9 @@
 }
 
 .user-perfil:hover {
+    color: #fff;
+}
+
+.user-perfil:hover {
     background-color: #1d65a8;
 }

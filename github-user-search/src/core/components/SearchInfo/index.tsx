@@ -7,6 +7,7 @@ type Params = {
 }
 
 const SearchInfo = ({ responseData }: Params) => {
+    const data = dayjs(responseData.created_at?.substr(0, 10).replaceAll('-', '/')).format('DD/MM/YYYY')
    
     return (
         <main>
@@ -32,7 +33,7 @@ const SearchInfo = ({ responseData }: Params) => {
                 <p className="user-info-content"><strong>Localidade: </strong>{responseData.location}</p>
                 </div>
                 <div>
-                <p className="user-info-content"><strong>Membro desde: </strong>{responseData.created_at}</p>
+                <p className="user-info-content"><strong>Membro desde: </strong>{data}</p>
                 </div>                
             </div>
         </main>

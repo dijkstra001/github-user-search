@@ -5,7 +5,6 @@ import SearchInfo from 'core/components/SearchInfo';
 import { GithubData } from 'core/types/githubData';
 import { makeRequest } from 'core/utils/request';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './styles.css';
 
 type Username = {
@@ -67,7 +66,7 @@ const Search = () => {
                                                 <img src={responseData ? responseData?.avatar_url : "https://www.seekpng.com/png/detail/983-9833965_icon-people-people-icon-black-png.png"} alt={responseData?.login} className="user-details-image" />
                                             </aside>
                                             <div>
-                                                <Link to={responseData ? responseData.html_url : "/search"} className="user-perfil">ver perfil</Link>
+                                            <a href={responseData ? responseData.html_url : "/search"} className="user-perfil" target="_blank" rel="noreffer">ver perfil</a>
                                             </div>
                                         </>
                                     </div>
